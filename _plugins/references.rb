@@ -1,3 +1,7 @@
+# NOTE: Legacy plugin retained only for reference. Not used by current site build.
+# Safe to delete if desired. Original purpose: append contents of _references.md
+# to each Markdown document for global reference-style link definitions.
+# ---------------------------------------------------------------------------
 # references.rb: Jekyll Markdown references plugin
 #
 # Created by Olov Lassus, Public Domain license.

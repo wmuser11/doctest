@@ -13,3 +13,20 @@ vendor
 .classpath
 .ruby-version
 Gemfile.lock
+
+# macOS system junk
+.DS_Store
+
+# Ignore only variant Gemfile.lock versions, but keep the real Gemfile.lock
+Gemfile.lock_*
+
+# Ignore only variant Gemfiles, but keep the real Gemfile
+Gemfile*_WORKS_*
+
+# Ignore all alternate README files, but not README.md
+README*.md
+!README.md
+
+# Ignore all alternate config files, but not _config.yml
+_config_*.yml
+!_config.yml
